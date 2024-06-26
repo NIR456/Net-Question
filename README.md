@@ -35,6 +35,9 @@ CORS (Cross-Origin Resource Sharing) is a security feature implemented by web br
 
 CORS allows servers to specify which domains are permitted to access resources on the server. This is essential for web security, as it helps prevent unauthorized access to resources.
 
+## Agile Methodology
+
+Agile is an iterative software development methodology that helps developers create and deliver applications more quickly and efficiently. It is based on the principles of collaboration, customer feedback, and the “three C's” – card, conversation, and confirmation.
 
  
 
