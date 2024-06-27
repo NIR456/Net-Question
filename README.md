@@ -39,6 +39,11 @@ CORS allows servers to specify which domains are permitted to access resources o
 
 Agile is an iterative software development methodology that helps developers create and deliver applications more quickly and efficiently. It is based on the principles of collaboration, customer feedback, and the “three C's” – card, conversation, and confirmation.
 
+## Agile Methodology
+## Unit testing
+## data Stracture
+
+
  
 
        
