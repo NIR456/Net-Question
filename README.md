@@ -37,9 +37,21 @@ CORS allows servers to specify which domains are permitted to access resources o
 
 ## Agile Methodology
 
-Agile is an iterative software development methodology that helps developers create and deliver applications more quickly and efficiently. It is based on the principles of collaboration, customer feedback, and the “three C's” – card, conversation, and confirmation.
+- Agile is an iterative software development methodology that helps developers create and deliver applications more quickly and efficiently. It is based on the principles of collaboration, customer feedback, and the “three C's” – card, conversation, and confirmation.
 
-## Agile Methodology
+- Agile is a software development methodology that is becoming more popular every day. It defines the mind set of many software development teams working across the globe.
+
+  - Link For Details (https://www.geeksforgeeks.org/software-engineering-agile-software-development/)
+
+### What is a scrum in software development
+
+- Scrum is a popular framework that is used whenever we want to develop complex products, Ken Schwaber and Jeff Sutherland are known as the people who developed Scrum. Scrum is a type of Agile framework.
+- Scrum is a management framework that teams use to self-organize tasks and work towards a common goal. It is a framework within which people can address complex adaptive problems while the productivity and creativity of delivering products are at the highest possible value. Scrum is a management framework that teams use to self-organize and work towards a common goal.
+
+- Scrum allows us to develop products of the highest value while making sure that we maintain creativity and productivity.
+- The iterative and incremental approach used in scrum allows the teams to adapt to the changing requirements.
+
+
 ## Unit testing
 ## data Stracture
 
