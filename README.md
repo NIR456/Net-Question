@@ -50,6 +50,7 @@ CORS allows servers to specify which domains are permitted to access resources o
 
 - Scrum allows us to develop products of the highest value while making sure that we maintain creativity and productivity.
 - The iterative and incremental approach used in scrum allows the teams to adapt to the changing requirements.
+  ##### Read (https://www.geeksforgeeks.org/scrum-software-development/)
 
 
 ## Unit testing
