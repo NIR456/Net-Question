@@ -56,6 +56,16 @@ CORS allows servers to specify which domains are permitted to access resources o
 ## Unit testing
 ## data Stracture
 
+## Docker
+ - Docker is a platform and a tool that allows you to build, distribute, and run applications inside containers. It's designed to make it easier to create, deploy, and run applications by using containers. Containers allow a developer to package up an application with all parts it needs, such as libraries and other dependencies, and ship it all out as one package.
+   ### Docker Container:-
+    - A Docker container is a lightweight, standalone, executable package of software that includes everything needed to run an application: code, runtime, system tools, system libraries, and settings. Containers isolate software from its surroundings, for example, differences between development and staging environments and help reduce conflicts between teams running different software on the same infrastructure.
+   ### Docker Image:-
+    - A Docker image is a read-only template that contains a set of instructions for creating a Docker container. It provides a complete and executable package of an application, which includes everything needed to run an application - the code, runtime, libraries, environment variables, and configuration files. Images are used to create Docker containers, and they can be built by following a set of instructions (called a Dockerfile) or can be pulled from a Docker registry like Docker Hub. 
+## Kubernetes:-
+- Kubernetes (K8s) is an open-source container orchestration platform designed to automate the deployment, scaling, and management of containerized applications. It helps in running distributed systems resiliently and efficiently.
+  
+
 
  
 
