@@ -65,7 +65,47 @@ CORS allows servers to specify which domains are permitted to access resources o
     - A Docker image is a read-only template that contains a set of instructions for creating a Docker container. It provides a complete and executable package of an application, which includes everything needed to run an application - the code, runtime, libraries, environment variables, and configuration files. Images are used to create Docker containers, and they can be built by following a set of instructions (called a Dockerfile) or can be pulled from a Docker registry like Docker Hub. 
 ## Kubernetes:-
 - Kubernetes (K8s) is an open-source container orchestration platform designed to automate the deployment, scaling, and management of containerized applications. It helps in running distributed systems resiliently and efficiently.
-  
+## Lazy Loading
+- Lazy loading in Entity Framework Core allows related data to be loaded automatically when it is accessed for the first time. This can be beneficial for performance when you do not need all related data initially but want it to be available if needed
+  ````
+  public class Blog
+{
+    public int BlogId { get; set; }
+    public string Url { get; set; }
+    
+    // Navigation property
+    public virtual ICollection<Post> Posts { get; set; }
+}
+
+public class Post
+{
+    public int PostId { get; set; }
+    public string Title { get; set; }
+    public string Content { get; set; }
+    
+    // Foreign key
+    public int BlogId { get; set; }
+    
+    // Navigation property
+    public virtual Blog Blog { get; set; }
+}
+```
+##### Example 2
+```
+using (var context = new BloggingContext())
+{
+    // Load a blog
+    var blog = context.Blogs.First();
+    
+    // The related posts are not loaded yet
+    Console.WriteLine("Blog loaded");
+    
+    // Access the Posts property to trigger lazy loading
+    var posts = blog.Posts;
+    
+    Console.WriteLine($"Number of posts: {posts.Count}");
+}
+```
 
 
  
