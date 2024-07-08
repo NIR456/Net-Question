@@ -1,5 +1,6 @@
 ### Understanding Services and Dependency Injection (DI) in ASP.NET Core
-In ASP.NET Core, services are components that provide functionality to our application, like logging, configuration, data access, etc. Dependency Injection (DI) is a technique to achieve Inversion of Control (IoC) between classes and their dependencies. DI makes your application more modular, testable, and maintainable.
+Services:- In ASP.NET Core, services are components that provide functionality to our application, like logging, configuration, data access, etc. 
+DI :- Dependency Injection (DI) is a technique to achieve Inversion of Control (IoC) between classes and their dependencies. DI makes your application more modular, testable, and maintainable.
 **Types of Services in ASP.NET Core**
 ##### Transient Services
 - **Description:** Created each time they are requested.
@@ -67,18 +68,18 @@ CORS allows servers to specify which domains are permitted to access resources o
 - Kubernetes (K8s) is an open-source container orchestration platform designed to automate the deployment, scaling, and management of containerized applications. It helps in running distributed systems resiliently and efficiently.
 ## Lazy Loading
 - Lazy loading in Entity Framework Core allows related data to be loaded automatically when it is accessed for the first time. This can be beneficial for performance when you do not need all related data initially but want it to be available if needed
-  ````
+````
   public class Blog
-{
+  {
     public int BlogId { get; set; }
     public string Url { get; set; }
     
     // Navigation property
     public virtual ICollection<Post> Posts { get; set; }
-}
+  }
 
-public class Post
-{
+  public class Post
+ {
     public int PostId { get; set; }
     public string Title { get; set; }
     public string Content { get; set; }
@@ -88,12 +89,12 @@ public class Post
     
     // Navigation property
     public virtual Blog Blog { get; set; }
-}
+  }
 ```
 ##### Example 2
 ```
-using (var context = new BloggingContext())
-{
+  using (var context = new BloggingContext())
+ {
     // Load a blog
     var blog = context.Blogs.First();
     
@@ -104,7 +105,7 @@ using (var context = new BloggingContext())
     var posts = blog.Posts;
     
     Console.WriteLine($"Number of posts: {posts.Count}");
-}
+ }
 ```
 
 
