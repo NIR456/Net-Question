@@ -75,6 +75,7 @@ CORS allows servers to specify which domains are permitted to access resources o
    - 
 ## data Stracture
 ## Repository in asp .Net core
+## Extension Method in C#
 
 ## Docker
  - Docker is a platform and a tool that allows you to build, distribute, and run applications inside containers. It's designed to make it easier to create, deploy, and run applications by using containers. Containers allow a developer to package up an application with all parts it needs, such as libraries and other dependencies, and ship it all out as one package.
