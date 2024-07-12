@@ -168,13 +168,19 @@ CORS allows servers to specify which domains are permitted to access resources o
     Console.WriteLine($"Number of posts: {posts.Count}");
  }
 ```
+## Meddleware ( types and desription)
+## Inheritance
+## Polymorphism
+## Abstraction
+## Interface
+## Encapsulation
+## types of Class
+## Access Modifier
+## Diff between Abstract class and interface
+## constant and Enum
+## Readonly and Constant Difference
+## Filter and types
+## SOLID Principle
 
 
  
-
-       
-
-           
-
-
-
