@@ -75,6 +75,47 @@ CORS allows servers to specify which domains are permitted to access resources o
    - 
 ## data Stracture
 ## Repository in asp .Net core
+  --The Repository pattern is a design pattern that isolates data access logic from the business logic. It provides a way to manage data access so that the underlying data 
+    source can be changed without impacting the business logic.
+    **In ASP.NET Core, there are several types of repositories that you can implement depending on your needs and the complexity of your application. Here are some common 
+   types:**
+      1. Generic Repository
+      2. Specific Repository
+     3. Unit of Work with Repository
+
+     Ans 1. A Generic Repository provides a single class with methods that can be used for any entity type. This reduces code duplication and provides a more generic data 
+            access solution.
+            ```public interface IGenericRepository<T> where T : class
+               {
+                 IEnumerable<T> GetAll();
+                 T GetById(int id);
+                 void Add(T entity);
+                 void Update(T entity);
+                 void Delete(int id);
+              }
+           ```
+           Ans 2. A Specific Repository is tailored for a particular entity. This allows for custom methods that are specific to the entity and not part of the generic 
+                  repository.
+                  ```
+                   ####Interface
+                    public interface IProductRepository : IGenericRepository<Product>
+                    {
+                      IEnumerable<Product> GetProductsByCategory(int categoryId);
+                    }
+                    ####Implementation
+                    public class ProductRepository : GenericRepository<Product>, IProductRepository
+                     {
+                      public ProductRepository(ApplicationDbContext context) : base(context)
+                     {
+                   }
+
+                   public IEnumerable<Product> GetProductsByCategory(int categoryId)
+                      {
+                   return _context.Products.Where(p => p.CategoryId == categoryId).ToList();
+                  }
+                  }
+                  ```
+
 ## Extension Method in C#
 
 
