@@ -86,6 +86,7 @@ CORS allows servers to specify which domains are permitted to access resources o
 
    - To structure the data in memory, 'n' number of algorithms were proposed, and all these algorithms are known as Abstract data types. These abstract data types are the 
      set of rules.
+     - Link For Details (https://www.javatpoint.com/data-structure-tutorial)
      
      
 
