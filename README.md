@@ -74,6 +74,7 @@ CORS allows servers to specify which domains are permitted to access resources o
    - MSTest: A built-in unit testing framework from Microsoft, well-integrated with Visual Studio.
    - 
 ## data Stracture
+   - 
 ## Repository in asp .Net core
   --The Repository pattern is a design pattern that isolates data access logic from the business logic. It provides a way to manage data access so that the underlying data 
     source can be changed without impacting the business logic.
@@ -181,6 +182,7 @@ CORS allows servers to specify which domains are permitted to access resources o
 ## Readonly and Constant Difference
 ## Filter and types
 ## SOLID Principle
+##
 
 
  
