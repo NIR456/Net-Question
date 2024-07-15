@@ -1,4 +1,4 @@
-### Understanding Services and Dependency Injection (DI) in ASP.NET Core
+data### Understanding Services and Dependency Injection (DI) in ASP.NET Core
 Services:- In ASP.NET Core, services are components that provide functionality to our application, like logging, configuration, data access, etc. 
 DI :- Dependency Injection (DI) is a technique to achieve Inversion of Control (IoC) between classes and their dependencies. DI makes your application more modular, testable, and maintainable.
 **Types of Services in ASP.NET Core**
@@ -74,7 +74,21 @@ CORS allows servers to specify which domains are permitted to access resources o
    - MSTest: A built-in unit testing framework from Microsoft, well-integrated with Visual Studio.
    - 
 ## data Stracture
-   - 
+   - A data structure is a specialized format for organizing, processing, retrieving and storing data. There are several basic and advanced
+     types of data structures, all designed to arrange data to suit a specific purpose.
+     
+   - The data structure name indicates itself that organizing the data in memory. There are many ways of organizing the data in the memory as we have already seen one of 
+     the data structures, i.e., array in C language. Array is a collection of memory elements in which data is stored sequentially, i.e., one after another. In other words, 
+     we can say that array stores the elements in a continuous manner. This organization of data is done with the help of an array of data structures. There are also other 
+     ways to organize the data in memory. Let's see the different types of data structures.
+   - The data structure is not any programming language like C, C++, java, etc. It is a set of algorithms that we can use in any programming language to structure the data 
+     in the memory.
+
+   - To structure the data in memory, 'n' number of algorithms were proposed, and all these algorithms are known as Abstract data types. These abstract data types are the 
+     set of rules.
+     
+     
+
 ## Repository in asp .Net core
   --The Repository pattern is a design pattern that isolates data access logic from the business logic. It provides a way to manage data access so that the underlying data 
     source can be changed without impacting the business logic.
