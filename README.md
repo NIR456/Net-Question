@@ -167,9 +167,9 @@ CORS allows servers to specify which domains are permitted to access resources o
     // Navigation property
     public virtual Blog Blog { get; set; }
   }
-```
+````
 ##### Example 2
-```
+````
   using (var context = new BloggingContext())
  {
     // Load a blog
@@ -183,7 +183,7 @@ CORS allows servers to specify which domains are permitted to access resources o
     
     Console.WriteLine($"Number of posts: {posts.Count}");
  }
-```
+````
 ## Meddleware ( types and desription)
 ## Inheritance
 ## Polymorphism
@@ -201,7 +201,7 @@ CORS allows servers to specify which domains are permitted to access resources o
   - In synchronous programming, code execution happens sequentially. Each statement waits for the previous one to complete before executing. This can lead to blocking, 
    where a long-running operation prevents further code execution until it finishes.
    **Examples**
-   ```
+   ````
     using System;
     using System.Net.Http;
     class Program
@@ -220,11 +220,11 @@ CORS allows servers to specify which domains are permitted to access resources o
         }
        }
     }
-     ```
+     ````
    - In asynchronous programming, code can continue executing without waiting for a long-running operation to complete. This is achieved using the async and await keywords 
    in C#. The async keyword indicates that a method is asynchronous, and await is used to suspend the execution of an asynchronous method until the awaited task completes.
     ** Examples**
-   ```
+   ````
     using System;
 using System.Net.Http;
 using System.Threading.Tasks;
@@ -246,7 +246,7 @@ class Program
         }
     }
 }
-```
+````
 
 
  
