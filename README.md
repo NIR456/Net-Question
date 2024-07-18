@@ -221,8 +221,10 @@ CORS allows servers to specify which domains are permitted to access resources o
        }
       }
    ````
-  - In asynchronous programming, code can continue executing without waiting for a long-running operation to complete. This is achieved using the async and await keywords 
-    in C#. The async keyword indicates that a method is asynchronous, and await is used to suspend the execution of an asynchronous method until the awaited task 
+  - In asynchronous programming, code can continue executing without waiting for a long-running operation to complete. This is 
+    achieved using the async and await keywords 
+    in C#. The async keyword indicates that a method is asynchronous, and await is used to suspend the execution of an asynchronous 
+    method until the awaited task 
     completes.
       ** Examples**
      ````
@@ -249,7 +251,7 @@ CORS allows servers to specify which domains are permitted to access resources o
      }
    ````
 
-  **How to Pass Data from Controller to View in MVC.**
-  **Heap and Stack Memory.**
+  ## How to Pass Data from Controller to View in MVC.
+  ## Heap and Stack Memory.
 
  
