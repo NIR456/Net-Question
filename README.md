@@ -248,7 +248,8 @@ CORS allows servers to specify which domains are permitted to access resources o
      }
      }
    ````
-## How to Pass Data from Controller to View in MVC
-## Heap and Stack Memory
+
+  **How to Pass Data from Controller to View in MVC.**
+  **Heap and Stack Memory.**
 
  
