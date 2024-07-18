@@ -197,7 +197,56 @@ CORS allows servers to specify which domains are permitted to access resources o
 ## Readonly and Constant Difference
 ## Filter and types
 ## SOLID Principle
-##
+##  Synchronous And Asynchronous Programming
+  - In synchronous programming, code execution happens sequentially. Each statement waits for the previous one to complete before executing. This can lead to blocking, 
+   where a long-running operation prevents further code execution until it finishes.
+   **Examples**
+   ```
+    using System;
+    using System.Net.Http;
+    class Program
+      {
+        static void Main()
+        {
+          var data = GetData();
+          Console.WriteLine(data);
+        }
+       static string GetData()
+       {
+        using (var client = new HttpClient())
+        {
+            var response = client.GetStringAsync("https://api.example.com/data").Result;
+            return response;
+        }
+       }
+    }
+     ```
+   - In asynchronous programming, code can continue executing without waiting for a long-running operation to complete. This is achieved using the async and await keywords 
+   in C#. The async keyword indicates that a method is asynchronous, and await is used to suspend the execution of an asynchronous method until the awaited task completes.
+    ** Examples**
+   ```
+    using System;
+using System.Net.Http;
+using System.Threading.Tasks;
+
+class Program
+{
+    static async Task Main()
+    {
+        var data = await GetData();
+        Console.WriteLine(data);
+    }
+
+    static async Task<string> GetData()
+    {
+        using (var client = new HttpClient())
+        {
+            var response = await client.GetStringAsync("https://api.example.com/data");
+            return response;
+        }
+    }
+}
+```
 
 
  
