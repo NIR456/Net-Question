@@ -226,28 +226,28 @@ CORS allows servers to specify which domains are permitted to access resources o
     completes.
       ** Examples**
      ````
-    using System;
-    using System.Net.Http;
-     using System.Threading.Tasks;
+      using System;
+      using System.Net.Http;
+      using System.Threading.Tasks;
 
-    class Program
-     {
-      static async Task Main()
-    {
+       class Program
+       {
+        static async Task Main()
+      {
         var data = await GetData();
         Console.WriteLine(data);
-    }
+     }
 
-    static async Task<string> GetData()
-    {
+      static async Task<string> GetData()
+     {
         using (var client = new HttpClient())
         {
             var response = await client.GetStringAsync("https://api.example.com/data");
             return response;
         }
-    }
-   }
-````
+     }
+     }
+   ````
 ## How to Pass Data from Controller to View in MVC
 ## Heap and Stack Memory
 
