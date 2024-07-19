@@ -132,9 +132,6 @@ CORS allows servers to specify which domains are permitted to access resources o
                   }
                   ```
 
-## Extension Method in C#
-
-
 ## Docker
  - Docker is a platform and a tool that allows you to build, distribute, and run applications inside containers. It's designed to make it easier to create, deploy, and run applications by using containers. Containers allow a developer to package up an application with all parts it needs, such as libraries and other dependencies, and ship it all out as one package.
    ### Docker Container:-
@@ -184,19 +181,6 @@ CORS allows servers to specify which domains are permitted to access resources o
     Console.WriteLine($"Number of posts: {posts.Count}");
  }
 ````
-## Meddleware ( types and desription)
-## Inheritance
-## Polymorphism
-## Abstraction
-## Interface
-## Encapsulation
-## types of Class
-## Access Modifier
-## Diff between Abstract class and interface
-## constant and Enum
-## Readonly and Constant Difference
-## Filter and types
-## SOLID Principle
 ##  Synchronous And Asynchronous Programming
   - In synchronous programming, code execution happens sequentially. Each statement waits for the previous one to complete before executing. This can lead to blocking, 
    where a long-running operation prevents further code execution until it finishes.
@@ -251,7 +235,21 @@ CORS allows servers to specify which domains are permitted to access resources o
      }
      ````
   
-  # How to Pass Data from Controller to View in MVC.
-  # Heap and Stack Memory.
+## How to Pass Data from Controller to View in MVC.
+## Heap and Stack Memory.
+## Extension Method in C#
+## Meddleware ( types and desription)
+## Inheritance
+## Polymorphism
+## Abstraction
+## Interface
+## Encapsulation
+## types of Class
+## Access Modifier
+## Diff between Abstract class and interface
+## constant and Enum
+## Readonly and Constant Difference
+## Filter and types
+## SOLID Principle
 
  
