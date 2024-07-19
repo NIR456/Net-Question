@@ -292,6 +292,19 @@ CORS allows servers to specify which domains are permitted to access resources o
      - Runtime constant: The value can be assigned either at the time of declaration or in the constructor of the class. This allows for different instances of the class to 
        have different values for the readonly field.
 ## Filter and types
+     - Authorization Filter: Validate user credentials.
+     - Resource Filter: Control execution order, caching.
+     - Action Filter: Pre/post processing of action methods.
+     - Exception Filter: Handle exceptions globally.
+     - Result Filter: Modify or handle action results.
 ## SOLID Principle
+ - The SOLID principles are a set of five design principles intended to make software designs more understandable, flexible, and maintainable. They are especially useful in 
+ object-oriented programming and are widely used in ASP.NET Core development.
+  **SOLID Principles**
+    ### Single Responsibility Principle (SRP) - One class, one responsibility.
+    ### Open/Closed Principle (OCP) - Extend behavior without modifying code.
+    ### Liskov Substitution Principle (LSP) - Subtypes replace base types correctly.
+    ### Interface Segregation Principle (ISP) - Small, specific interfaces preferred.
+    ### Dependency Inversion Principle (DIP) - Depend on abstractions, not implementations.
 
  
