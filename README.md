@@ -234,10 +234,41 @@ CORS allows servers to specify which domains are permitted to access resources o
      }
      }
      ````
-  
+
+
+## Extension Method in C#
+ - Extension methods in C# allow you to add new methods to existing types without modifying their source code. They are a powerful feature that enhances the flexibility and 
+   readability of your code. Here’s how you can create and use an extension method.
+    ### Creating an Extension Method
+     #### 1. Define a Static Class: Extension methods must be defined in a static class.
+     #### 2. Create a Static Method: The extension method itself must be static.
+     #### 3. Use the this Keyword: The first parameter of the method specifies the type it extends and must be preceded by the this keyword.
+      - Let's create an extension method for the string class that checks if a string is a valid email address.
+        Define the Static Class:-
+        ````
+            public static class StringExtensions
+            {
+               public static bool IsValidEmail(this string email)
+           {
+             return email.Contains("@") && email.Contains(".");
+          }
+           }
+        ````
+        Using the Extension Method:-
+        ````
+          class Program
+           {
+            static void Main()
+             {
+               string email = "example@example.com";
+                bool isValid = email.IsValidEmail(); // Using the extension method
+                Console.WriteLine(isValid); // Outputs: True
+            }
+          }
+       ````
+        
 ## How to Pass Data from Controller to View in MVC.
 ## Heap and Stack Memory.
-## Extension Method in C#
 ## Meddleware ( types and desription)
 ## Inheritance
 ## Polymorphism
