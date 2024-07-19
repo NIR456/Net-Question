@@ -280,6 +280,13 @@ CORS allows servers to specify which domains are permitted to access resources o
 ## Diff between Abstract class and interface
 ## constant and Enum
 ## Readonly and Constant Difference
+  - In C#, readonly and const are used to define fields that should not be modified after they are initialized, but they serve slightly different purposes and have 
+    different behaviors.
+     **Const**
+      - Compile-time constant: The value must be known at compile time and cannot be changed after it is defined.
+    **readonly**
+     - Runtime constant: The value can be assigned either at the time of declaration or in the constructor of the class. This allows for different instances of the class to 
+       have different values for the readonly field.
 ## Filter and types
 ## SOLID Principle
 
