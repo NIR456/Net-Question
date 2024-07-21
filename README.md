@@ -298,6 +298,22 @@ CORS allows servers to specify which domains are permitted to access resources o
        // Usage
        DaysOfWeek today = DaysOfWeek.Monday;
      ````
+    ### Constant
+     - Purpose: Constants are used to define immutable values that do not change for the lifetime of the application.
+     - Type: Constants can be of any basic type (e.g., int, float, string).
+     - Value Assignment: Constants must be assigned a value at the time of declaration, and that value cannot be changed later.
+     - Usage: Constants are ideal for defining values that are not expected to change, such as mathematical constants, configuration values, or fixed values used throughout 
+       the application.
+       ````
+          public class Constants
+          {
+            public const int MaxItems = 100;
+            public const string ApplicationName = "MyApp";
+          }
+          // Usage
+          int max = Constants.MaxItems;
+          string appName = Constants.ApplicationName;
+       ````
 ## Readonly and Constant Difference
   - In C#, readonly and const are used to define fields that should not be modified after they are initialized, but they serve slightly different purposes and have 
     different behaviors.
