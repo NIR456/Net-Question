@@ -346,8 +346,26 @@ CORS allows servers to specify which domains are permitted to access resources o
             // Code to print the invoice
            }
          }
-       ````
+         - Issue: The Invoice class has two responsibilities: calculating the total and printing the invoice.
+         Correct Example :-
+           public class Invoice
+            {
+                public void CalculateTotal() 
+                 {
+                   // Code to calculate the total amount of the invoice
+                }
+            }
+
+          public class InvoicePrinter
+           {
+             public void Print(Invoice invoice)
+             {
+              // Code to print the invoice
+             }
+          }
+        ````
     ### Open/Closed Principle (OCP) - Extend behavior without modifying code.
+      - 
     ### Liskov Substitution Principle (LSP) - Subtypes replace base types correctly.
     ### Interface Segregation Principle (ISP) - Small, specific interfaces preferred.
     ### Dependency Inversion Principle (DIP) - Depend on abstractions, not implementations.
