@@ -279,8 +279,25 @@ CORS allows servers to specify which domains are permitted to access resources o
 ## Access Modifier
 ## Diff between Abstract class and interface
 ## constant and Enum
-  - Enum in C# is also known as enumeration. It is used to store a set of named constants such as season, days, month, size etc. The enum constants are also known as 
-   enumerators.
+  ###  Enum (Enumeration)
+  - Purpose: Enums are used to represent a group of related named constants, typically to define a type that can take one of a fixed set of values.
+  - Type: Enum types are value types derived from System.Enum.
+  - Underlying Type: The default underlying type is int, but you can specify a different integral type (byte, sbyte, short, ushort, uint, long, or ulong).
+  - Usage: Enums are ideal for representing a collection of related values, such as days of the week, error codes, or states.
+     ````
+       public enum DaysOfWeek
+       {
+         Sunday,
+         Monday,
+         Tuesday,
+         Wednesday,
+         Thursday,
+         Friday,
+        Saturday
+      }
+       // Usage
+       DaysOfWeek today = DaysOfWeek.Monday;
+     ````
 ## Readonly and Constant Difference
   - In C#, readonly and const are used to define fields that should not be modified after they are initialized, but they serve slightly different purposes and have 
     different behaviors.
