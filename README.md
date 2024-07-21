@@ -266,18 +266,6 @@ CORS allows servers to specify which domains are permitted to access resources o
             }
           }
        ````
-        
-## How to Pass Data from Controller to View in MVC.
-## Heap and Stack Memory.
-## Meddleware ( types and desription)
-## Inheritance
-## Polymorphism
-## Abstraction
-## Interface
-## Encapsulation
-## types of Class
-## Access Modifier
-## Diff between Abstract class and interface
 ## constant and Enum
   ###  Enum (Enumeration)
   - Purpose: Enums are used to represent a group of related named constants, typically to define a type that can take one of a fixed set of values.
@@ -344,10 +332,37 @@ CORS allows servers to specify which domains are permitted to access resources o
  - The SOLID principles are a set of five design principles intended to make software designs more understandable, flexible, and maintainable. They are especially useful in 
  object-oriented programming and are widely used in ASP.NET Core development.
   **SOLID Principles**
-    ### Single Responsibility Principle (SRP) - One class, one responsibility.
+    ### Single Responsibility Principle (SRP)
+      - A class should have only one reason to change, meaning it should have only one job or responsibility.
+        ````
+         public class Invoice
+         {
+           public void CalculateTotal() 
+        {
+          // Code to calculate the total amount of the invoice
+        }
+        public void PrintInvoice()
+        {
+         // Code to print the invoice
+        }
+       }
+      ````
     ### Open/Closed Principle (OCP) - Extend behavior without modifying code.
     ### Liskov Substitution Principle (LSP) - Subtypes replace base types correctly.
     ### Interface Segregation Principle (ISP) - Small, specific interfaces preferred.
     ### Dependency Inversion Principle (DIP) - Depend on abstractions, not implementations.
+
+## How to Pass Data from Controller to View in MVC.
+## Heap and Stack Memory.
+## Meddleware ( types and desription)
+## Inheritance
+## Polymorphism
+## Abstraction
+## Interface
+## Encapsulation
+## types of Class
+## Access Modifier
+## Diff between Abstract class and interface
+## linq in details 
 
  
