@@ -338,15 +338,15 @@ CORS allows servers to specify which domains are permitted to access resources o
          public class Invoice
          {
            public void CalculateTotal() 
-        {
-          // Code to calculate the total amount of the invoice
-        }
-        public void PrintInvoice()
-        {
-         // Code to print the invoice
-        }
-       }
-      ````
+           {
+             // Code to calculate the total amount of the invoice
+           }
+           public void PrintInvoice()
+           {
+            // Code to print the invoice
+           }
+         }
+       ````
     ### Open/Closed Principle (OCP) - Extend behavior without modifying code.
     ### Liskov Substitution Principle (LSP) - Subtypes replace base types correctly.
     ### Interface Segregation Principle (ISP) - Small, specific interfaces preferred.
