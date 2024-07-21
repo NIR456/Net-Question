@@ -295,17 +295,16 @@ CORS allows servers to specify which domains are permitted to access resources o
    - In ASP.NET Core, filters are used to run code before or after certain stages in the request processing pipeline. They can be used to handle cross-cutting concerns such 
      as authorization, caching, exception handling, and logging. There are several types of filters:-
      
-   ### Types Of filter 
-     
-    #### Authorization Filter: Validate user credentials.
+   ### Types Of filter:-
+  #### Authorization Filter: Validate user credentials.
        - Run before anything else and are used to determine whether the user is authorized to perform the current request.
-    #### Resource Filter: Control execution order, caching.
+  #### Resource Filter: Control execution order, caching.
         - Run after authorization but before model binding, and they can short-circuit the request processing pipeline.
-    #### Action Filter: Pre/post processing of action methods.
+  #### Action Filter: Pre/post processing of action methods.
         - Run before and after the action method execution.
-    #### Exception Filter: Handle exceptions globally.
+  #### Exception Filter: Handle exceptions globally.
         - Run when an exception occurs during the action method execution.
-    #### Result Filter: Modify or handle action results.
+  #### Result Filter: Modify or handle action results.
         - Run before and after the action result is executed.
         
 ## SOLID Principle
