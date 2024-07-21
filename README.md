@@ -294,7 +294,9 @@ CORS allows servers to specify which domains are permitted to access resources o
 ## Filter and types
    - In ASP.NET Core, filters are used to run code before or after certain stages in the request processing pipeline. They can be used to handle cross-cutting concerns such 
      as authorization, caching, exception handling, and logging. There are several types of filters:-
+     
      ** Types Of filter **
+     
     - Authorization Filter: Validate user credentials.
     - Resource Filter: Control execution order, caching.
     - Action Filter: Pre/post processing of action methods.
