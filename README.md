@@ -365,10 +365,66 @@ CORS allows servers to specify which domains are permitted to access resources o
           }
         ````
     ### Open/Closed Principle (OCP) - Extend behavior without modifying code.
-      - 
-    ### Liskov Substitution Principle (LSP) - Subtypes replace base types correctly.
-    ### Interface Segregation Principle (ISP) - Small, specific interfaces preferred.
-    ### Dependency Inversion Principle (DIP) - Depend on abstractions, not implementations.
+      -  Software entities should be open for extension but closed for modification.
+        ````
+           public class Shape
+           {
+             public double CalculateArea(object shape)
+              {
+                if (shape is Rectangle)
+                 {
+                   Rectangle rectangle = (Rectangle)shape;
+                   return rectangle.Width * rectangle.Height;
+                 }
+               else if (shape is Circle)
+               {
+                Circle circle = (Circle)shape;
+                return Math.PI * circle.Radius * circle.Radius;
+              }
+             else
+             {
+               throw new ArgumentException("Unknown shape");
+             }
+          }
+        }
+       public class Rectangle
+       {
+        public double Width { get; set; }
+        public double Height { get; set; }
+      }
+      public class Circle
+       {
+         public double Radius { get; set; }
+     - Issue: To add a new shape, you would need to modify AreaCalculator.
+       ````
+    ### Liskov Substitution Principle (LSP)
+      - Objects of a superclass should be replaceable with objects of a subclass without affecting the functionality.
+        ````
+          public class Bird
+           {
+             public virtual void Fly() { }
+           }
+          public class Sparrow : Bird
+          {
+            public override void Fly()
+          {
+           // Sparrow flying code
+          }
+         }
+         public class Ostrich : Bird
+         {
+            public override void Fly()
+         {
+           // Ostrich cannot fly
+            throw new NotImplementedException();
+        }
+      }
+     -Issue: The Ostrich class violates LSP because it cannot fly.
+        ````
+    ### Interface Segregation Principle (ISP)
+      - No client should be forced to depend on methods it does not use.
+    ### Dependency Inversion Principle (DIP)
+      - High-level modules should not depend on low-level modules. Both should depend on abstractions.
 
 ## How to Pass Data from Controller to View in MVC.
 ## Heap and Stack Memory.
