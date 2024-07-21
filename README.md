@@ -292,11 +292,14 @@ CORS allows servers to specify which domains are permitted to access resources o
      - Runtime constant: The value can be assigned either at the time of declaration or in the constructor of the class. This allows for different instances of the class to 
        have different values for the readonly field.
 ## Filter and types
-     - Authorization Filter: Validate user credentials.
-     - Resource Filter: Control execution order, caching.
-     - Action Filter: Pre/post processing of action methods.
-     - Exception Filter: Handle exceptions globally.
-     - Result Filter: Modify or handle action results.
+   - In ASP.NET Core, filters are used to run code before or after certain stages in the request processing pipeline. They can be used to handle cross-cutting concerns such 
+     as authorization, caching, exception handling, and logging. There are several types of filters:-
+     ** Types Of filter **
+    - Authorization Filter: Validate user credentials.
+    - Resource Filter: Control execution order, caching.
+    - Action Filter: Pre/post processing of action methods.
+    - Exception Filter: Handle exceptions globally.
+    - Result Filter: Modify or handle action results.
 ## SOLID Principle
  - The SOLID principles are a set of five design principles intended to make software designs more understandable, flexible, and maintainable. They are especially useful in 
  object-oriented programming and are widely used in ASP.NET Core development.
