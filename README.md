@@ -1,4 +1,4 @@
-data### Understanding Services and Dependency Injection (DI) in ASP.NET Core
+### Understanding Services and Dependency Injection (DI) in ASP.NET Core:-
 Services:- In ASP.NET Core, services are components that provide functionality to our application, like logging, configuration, data access, etc. 
 DI :- Dependency Injection (DI) is a technique to achieve Inversion of Control (IoC) between classes and their dependencies. DI makes your application more modular, testable, and maintainable.
 **Types of Services in ASP.NET Core**
@@ -471,27 +471,28 @@ CORS allows servers to specify which domains are permitted to access resources o
     ### 2. ViewBag
     ### 3. Strongly Typed Models
     
-## Heap and Stack Memory.
-## Inheritance
-## Polymorphism
-## Abstraction 
-## Encapsulation
-## types of Class
 ## Access Modifier
   **1. public:** The member is accessible from any code in the same assembly or another assembly that references it.
   
   **2. private:** The member is accessible only within the containing class or struct.
   
-  **3. protected:** The member is accessible within its containing class and by derived classes.
+  **3. internal:** The member is accessible only within the same assembly.
   
-  **4. internal:** The member is accessible only within the same assembly.
+  **4. protected:** The member is accessible within its containing class and by derived classes.
   
-  **5. protected** internal: The member is accessible within the same assembly and from derived classes, even if they are in another assembly.
+  **5. protected internal:**  The member is accessible within the same assembly and from derived classes, even if they are in another assembly.
   
   **6. private protected:** The member is accessible only within the containing class and derived classes in the same assembly.
   
+## types of Class 
 ## Diff between Abstract class and interface
 ## linq in details 
+## Heap and Stack Memory.
+## Inheritance
+## Polymorphism
+## Abstraction 
+## Encapsulation
+
      
   
 
