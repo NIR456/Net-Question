@@ -1,6 +1,8 @@
 ### Understanding Services and Dependency Injection (DI) in ASP.NET Core:-
 **Services:-** In ASP.NET Core, services are components that provide functionality to our application, like logging, configuration, data access, etc. 
+
 **DI :-** Dependency Injection (DI) is a technique to achieve Inversion of Control (IoC) between classes and their dependencies. DI makes your application more modular, testable, and maintainable.
+
 **Types of Services in ASP.NET Core**
 ##### Transient Services
 - **Description:** Created each time they are requested.
