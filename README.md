@@ -440,6 +440,12 @@ CORS allows servers to specify which domains are permitted to access resources o
 ## Diff between Abstract class and interface
 ## linq in details 
 ## Routing in .Net Core
+ - Routing is a pattern-matching system that monitors the incoming request and figures out what to do with that request. Typically, it is a way to serve the user's request.
+ - When a user request URLs from the server then URLs are handled by the routing system. The Routing system tries to find out the matching route pattern of the required Url 
+   with already registered routes which are map to controller, actions, files, or other items. If there is a matching route entry, then it processes the request i.e. serves 
+   the resource, otherwise, it returns a 404 error.
+ - In our .NET Core project, we utilize Ocelot as our API Gateway to manage and route requests to various downstream microservices. This allows us to abstract the client 
+   from the complexity of our backend services and apply cross-cutting concerns at a single entry point.    
 ## Meddleware ( types and desription)
  - Middleware is a powerful tool in . NET Core that allows us to modify incoming requests and outgoing responses. It can be used to perform a wide range of tasks such as 
   authentication, logging, compression, and caching. 
