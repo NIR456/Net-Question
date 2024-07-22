@@ -506,6 +506,7 @@ CORS allows servers to specify which domains are permitted to access resources o
 ## Heap and Stack Memory.
   **Heap:-**
    - The heap is a region of memory used for dynamic memory allocation. It stores reference types and objects that can grow or shrink in size during the program's execution.
+     
   **Stack:-**
   - The stack is a region of memory that stores value types and the execution context of methods (including local variables and method parameters). It operates on a last- 
     in, first-out (LIFO) basis.
