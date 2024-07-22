@@ -367,7 +367,7 @@ CORS allows servers to specify which domains are permitted to access resources o
     ### Open/Closed Principle (OCP) - Extend behavior without modifying code.
       -  Software entities should be open for extension but closed for modification.
         
-        ````
+        `````
            public class Shape
            {
              public double CalculateArea(object shape)
@@ -388,16 +388,17 @@ CORS allows servers to specify which domains are permitted to access resources o
              }
              }
            }
-         public class Rectangle
-         {
-           public double Width { get; set; }
-           public double Height { get; set; }
-         }
-         public class Circle
-        {
-          public double Radius { get; set; }
-       - Issue: To add a new shape, you would need to modify AreaCalculator.
-       ````
+           public class Rectangle
+           {
+             public double Width { get; set; }
+             public double Height { get; set; }
+           }
+          public class Circle
+           {
+            public double Radius { get; set; }
+           }
+          - Issue: To add a new shape, you would need to modify AreaCalculator.
+       `````
     ### Liskov Substitution Principle (LSP)
       - Objects of a superclass should be replaceable with objects of a subclass without affecting the functionality.
         ````
