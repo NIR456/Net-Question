@@ -430,7 +430,6 @@ CORS allows servers to specify which domains are permitted to access resources o
 
 ## How to Pass Data from Controller to View in MVC.
 ## Heap and Stack Memory.
-## Meddleware ( types and desription)
 ## Inheritance
 ## Polymorphism
 ## Abstraction
@@ -440,5 +439,28 @@ CORS allows servers to specify which domains are permitted to access resources o
 ## Access Modifier
 ## Diff between Abstract class and interface
 ## linq in details 
+## Routing in .Net Core
+## Meddleware ( types and desription)
+ - Middleware is a powerful tool in . NET Core that allows us to modify incoming requests and outgoing responses. It can be used to perform a wide range of tasks such as 
+  authentication, logging, compression, and caching. 
+
+ **Types of meddleware in .Net core**
+ ### 1. Terminal:- 
+    - The terminal middleware is responsible for sending the response back to the client. It is the final middleware component in the pipeline. Terminal middleware can be 
+      used to modify the outgoing response before it is sent back to the client.
+  **Some examples of terminal middleware include:**
+   - Static files middleware: This middleware is used to serve static files such as CSS, JavaScript, and images.
+   - File server middleware: This middleware is used to serve files from a specified directory.
+   - MVC middleware: This middleware is used to handle requests for MVC endpoints.
+ ### 2. Non-Terminal:- 
+   - Non-terminal middleware is any middleware component that is not the final component in the pipeline. Non-terminal middleware can be used to modify incoming requests 
+    and outgoing responses.
+  **Some examples of non-terminal middleware include:**
+   - Authentication middleware: This middleware is used to authenticate users.
+   - Authorization middleware: This middleware is used to authorize users to access certain resources.
+   - Response compression middleware: This middleware is used to compress the response before it is sent back to the client.
+   - Request logging middleware: This middleware is used to log requests.
+   - Routing middleware: This middleware is used to route requests to the appropriate endpoint.
+  
 
  
