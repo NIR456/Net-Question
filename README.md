@@ -436,6 +436,7 @@ CORS allows servers to specify which domains are permitted to access resources o
 ## Interface
   - An interface in C# is a way to define a contract or a set of methods and properties that a class must implement. Interfaces do not contain any code themselves; they 
     only specify what methods or properties should be included in the implementing class.
+    
     **Why Use Interfaces?**
     ### 1. Define a Contract: Interfaces allow you to define a set of methods and properties that any class can implement. This ensures that different classes can be used interchangeably if they follow the same contract.
             
