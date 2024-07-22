@@ -510,6 +510,17 @@ CORS allows servers to specify which domains are permitted to access resources o
   **Stack:-**
   - The stack is a region of memory that stores value types and the execution context of methods (including local variables and method parameters). It operates on a last- 
     in, first-out (LIFO) basis.
+## Advantage and disadvantage of microservice in Asp .Net core
+  **Advantage:-**
+   ### 1. Microservices can be scaled independently. If a particular service requires more resources, it can be scaled without affecting the entire system.
+   ### 2. Different microservices can use different technologies and frameworks best suited for their tasks.
+   ### 3. If a microservice fails, it doesn’t necessarily bring down the entire system.
+   ### 4. Teams can develop, test, and deploy microservices independently.
+  **Disadvantage:-**
+   ### 1. Managing multiple microservices can be complex, requiring sophisticated orchestration and monitoring tools.
+   ### 2. Inter-service communication over the network can introduce latency.
+   ### 3. Maintaining data consistency and integrity across microservices can be challenging.
+   ### 4. Deploying and managing multiple services can be resource-intensive and require advanced CI/CD pipelines.
 ## Diff between Abstract class and interface
 ## linq in details 
 ## Inheritance
