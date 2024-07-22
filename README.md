@@ -487,9 +487,30 @@ CORS allows servers to specify which domains are permitted to access resources o
   **6. private protected:** The member is accessible only within the containing class and derived classes in the same assembly.
   
 ## types of Class 
+ - In C#, class is a group of similar objects. It is a template from which objects are created. It can have fields, methods, constructors etc.
+   **Types of Class:-**
+    ### 1. Standard Class
+      - A standard class in C# is the most common type of class used to define objects. It can contain fields, properties, methods, and events.
+    ### 2. Static Class
+      - A static class is a class that cannot be instantiated. All members of a static class must also be static. It is commonly used to hold utility methods.
+    ### 3. Abstract Class
+      - An abstract class is a class that cannot be instantiated and is designed to be subclassed. It can contain abstract methods (without implementation) and concrete 
+        methods (with implementation).
+    ### 4. Sealed Class
+      - A sealed class is a class that cannot be inherited. It is used to prevent other classes from deriving from it.
+    ### 5. Partial Class
+      - A partial class allows its definition to be split across multiple files. All parts are combined into a single class when the application is compiled.
+    ### 6. Nested Class
+      - A nested class is a class defined within another class. It is used to logically group classes that are only used within the containing class.
+     
+## Heap and Stack Memory.
+  **Heap:-**
+   - The heap is a region of memory used for dynamic memory allocation. It stores reference types and objects that can grow or shrink in size during the program's execution.
+  **Stack:-**
+  - The stack is a region of memory that stores value types and the execution context of methods (including local variables and method parameters). It operates on a last- 
+    in, first-out (LIFO) basis.
 ## Diff between Abstract class and interface
 ## linq in details 
-## Heap and Stack Memory.
 ## Inheritance
 ## Polymorphism
 ## Abstraction 
