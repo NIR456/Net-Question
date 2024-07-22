@@ -479,10 +479,15 @@ CORS allows servers to specify which domains are permitted to access resources o
 ## types of Class
 ## Access Modifier
   **1. public:** The member is accessible from any code in the same assembly or another assembly that references it.
+  
   **2. private:** The member is accessible only within the containing class or struct.
+  
   **3. protected:** The member is accessible within its containing class and by derived classes.
+  
   **4. internal:** The member is accessible only within the same assembly.
+  
   **5. protected** internal: The member is accessible within the same assembly and from derived classes, even if they are in another assembly.
+  
   **6. private protected:** The member is accessible only within the containing class and derived classes in the same assembly.
   
 ## Diff between Abstract class and interface
