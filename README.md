@@ -446,7 +446,7 @@ CORS allows servers to specify which domains are permitted to access resources o
 
  **Types of meddleware in .Net core**
  ### 1. Terminal:- 
-    - The terminal middleware is responsible for sending the response back to the client. It is the final middleware component in the pipeline. Terminal middleware can be 
+   - The terminal middleware is responsible for sending the response back to the client. It is the final middleware component in the pipeline. Terminal middleware can be 
       used to modify the outgoing response before it is sent back to the client.
   **Some examples of terminal middleware include:**
    - Static files middleware: This middleware is used to serve static files such as CSS, JavaScript, and images.
