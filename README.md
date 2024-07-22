@@ -428,11 +428,6 @@ CORS allows servers to specify which domains are permitted to access resources o
     ### Dependency Inversion Principle (DIP)
       - High-level modules should not depend on low-level modules. Both should depend on abstractions.
 
-## How to Pass Data from Controller to View in MVC.
-## Heap and Stack Memory.
-## Inheritance
-## Polymorphism
-## Abstraction
 ## Interface
   - An interface in C# is a way to define a contract or a set of methods and properties that a class must implement. Interfaces do not contain any code themselves; they 
     only specify what methods or properties should be included in the implementing class.
@@ -441,11 +436,7 @@ CORS allows servers to specify which domains are permitted to access resources o
     ### 1. Define a Contract: Interfaces allow you to define a set of methods and properties that any class can implement. This ensures that different classes can be used interchangeably if they follow the same contract.
             
     ### 2. Multiple Inheritance: Classes can implement multiple interfaces, which provides a way to combine different sets of functionality.
-## Encapsulation
-## types of Class
-## Access Modifier
-## Diff between Abstract class and interface
-## linq in details 
+
 ## Routing in .Net Core
  - Routing is a pattern-matching system that monitors the incoming request and figures out what to do with that request. Typically, it is a way to serve the user's request.
  - When a user request URLs from the server then URLs are handled by the routing system. The Routing system tries to find out the matching route pattern of the required Url 
@@ -474,6 +465,29 @@ CORS allows servers to specify which domains are permitted to access resources o
    - Response compression middleware: This middleware is used to compress the response before it is sent back to the client.
    - Request logging middleware: This middleware is used to log requests.
    - Routing middleware: This middleware is used to route requests to the appropriate endpoint.
+## How to Pass Data from Controller to View in MVC.
+  - In ASP.NET Core MVC, you can pass data from a controller to a view using several methods. Here’s a brief overview of the most common techniques:
+    ### 1. ViewData
+    ### 2. ViewBag
+    ### 3. Strongly Typed Models
+    
+## Heap and Stack Memory.
+## Inheritance
+## Polymorphism
+## Abstraction 
+## Encapsulation
+## types of Class
+## Access Modifier
+  **1. public:** The member is accessible from any code in the same assembly or another assembly that references it.
+  **2. private:** The member is accessible only within the containing class or struct.
+  **3. protected:** The member is accessible within its containing class and by derived classes.
+  **4. internal:** The member is accessible only within the same assembly.
+  **5. protected** internal: The member is accessible within the same assembly and from derived classes, even if they are in another assembly.
+  **6. private protected:** The member is accessible only within the containing class and derived classes in the same assembly.
+  
+## Diff between Abstract class and interface
+## linq in details 
+     
   
 
  
