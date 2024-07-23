@@ -97,9 +97,12 @@ CORS allows servers to specify which domains are permitted to access resources o
     source can be changed without impacting the business logic.
     **In ASP.NET Core, there are several types of repositories that you can implement depending on your needs and the complexity of your application. Here are some common 
    types:**
-      1. Generic Repository
-      2. Specific Repository
-     3. Unit of Work with Repository
+  ### 1. Generic Repository
+      
+  ### 2. Specific Repository
+      
+  ### 3. Unit of Work with Repository
+     
 
      Ans 1. A Generic Repository provides a single class with methods that can be used for any entity type. This reduces code duplication and provides a more generic data 
             access solution.
