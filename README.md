@@ -524,8 +524,11 @@ CORS allows servers to specify which domains are permitted to access resources o
    #### 2. Inter-service communication over the network can introduce latency.
    #### 3. Maintaining data consistency and integrity across microservices can be challenging.
    #### 4. Deploying and managing multiple services can be resource-intensive and require advanced CI/CD pipelines.
-## Diff between Abstract class and interface
 ## linq in details 
+ - In ASP.NET Core, LINQ is commonly used to query databases, especially with Entity Framework Core, a popular object- 
+    relational mapping (ORM) framework. EF Core allows developers to interact with databases using C# objects, and LINQ 
+    provides a natural and efficient way to query and transform this data.
+## Diff between Abstract class and interface
 ## Inheritance
 ## Polymorphism
 ## Abstraction 
