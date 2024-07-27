@@ -242,7 +242,7 @@ CORS allows servers to specify which domains are permitted to access resources o
 
 
 ## Extension Method in C#
- - Extension methods in C# allow you to add new methods to existing types without modifying their source code. They are a powerful feature that enhances the flexibility and 
+ - Extension methods in C# allow us to add new methods to existing types without modifying their source code. They are a powerful feature that enhances the flexibility and 
    readability of your code. Here’s how you can create and use an extension method.
     ### Creating an Extension Method
      #### 1. Define a Static Class: Extension methods must be defined in a static class.
