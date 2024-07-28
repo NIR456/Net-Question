@@ -533,6 +533,7 @@ CORS allows servers to specify which domains are permitted to access resources o
 ## Polymorphism
 ## Abstraction 
 ## Encapsulation
+## Understanding SDLC
 
      
   
