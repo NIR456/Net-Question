@@ -593,6 +593,7 @@ Choosing the right type of API depends on the specific needs of your application
 ## Performance and Optimization
 ## Configuration and Environment
 ## Deployment and Hosting
+## Design Pattern *****
 
      
   
