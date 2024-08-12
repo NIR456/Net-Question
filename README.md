@@ -594,6 +594,7 @@ Choosing the right type of API depends on the specific needs of your application
 ## Configuration and Environment
 ## Deployment and Hosting
 ## Design Pattern *****
+## how to design database schema in ms sql server
 
      
   
