@@ -586,6 +586,10 @@ Choosing the right type of API depends on the specific needs of your application
  -  Multi-Factor Authentication (MFA): Adds an extra layer of security by requiring additional verification methods (e.g., SMS codes, authentication apps).
  -  OAuth: Allows users to log in using credentials from another service (e.g., Google, Facebook).
  -  Biometric Authentication: Uses fingerprints, facial recognition, or other biometric data.
+## Authorization
+ - Authorization determines what actions and resources an authenticated user can access. It involves assigning roles and permissions to users. Common approaches include.
+ - Attribute-Based Access Control (ABAC): Access is granted based on attributes (e.g., user department, time of access).
+ - Access Control Lists (ACLs): Lists that specify which users or system processes are granted access to objects
 ## Diff between Abstract class and interface
 ## Inheritance
 ## Polymorphism
