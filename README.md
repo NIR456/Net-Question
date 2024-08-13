@@ -578,7 +578,14 @@ CORS allows servers to specify which domains are permitted to access resources o
 - *GraphQL vs REST*: GraphQL offers more flexibility and efficiency for complex queries, whereas REST is simpler and more widely used.
 - *gRPC vs REST*: gRPC provides higher performance and is suitable for microservices, whereas REST is more broadly adopted and easier to implement.
 
-Choosing the right type of API depends on the specific needs of your application, such as the complexity of data interactions, performance requirements, and ease of implementation.   
+Choosing the right type of API depends on the specific needs of your application, such as the complexity of data interactions, performance requirements, and ease of implementation.
+## Authentication 
+  - Authentication is the process of verifying the identity of a user or system. It ensures that the entity trying to access the application is who they claim to be. Common 
+   methods include.
+ - Username and Password: The most basic form, where users provide a username and password to log in.
+ -  Multi-Factor Authentication (MFA): Adds an extra layer of security by requiring additional verification methods (e.g., SMS codes, authentication apps).
+ -  OAuth: Allows users to log in using credentials from another service (e.g., Google, Facebook).
+ -  Biometric Authentication: Uses fingerprints, facial recognition, or other biometric data.
 ## Diff between Abstract class and interface
 ## Inheritance
 ## Polymorphism
