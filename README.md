@@ -93,8 +93,10 @@ CORS allows servers to specify which domains are permitted to access resources o
      
 
 ## Repository in asp .Net core
-  --The Repository pattern is a design pattern that isolates data access logic from the business logic. It provides a way to manage data access so that the underlying data 
+  -The Repository pattern is a design pattern that isolates data access logic from the business logic. It provides a way to manage data access so that the underlying data 
     source can be changed without impacting the business logic.
+  - The repository design pattern is a specific type of design pattern that deals with data access. It provides an abstraction over the data layer, making your application 
+    more modular and easier to test. Here’s how it works in ASP.NET Core.
     **In ASP.NET Core, there are several types of repositories that you can implement depending on your needs and the complexity of your application. Here are some common 
    types:**
   ### 1. Generic Repository
@@ -137,6 +139,10 @@ CORS allows servers to specify which domains are permitted to access resources o
                   }
                   ```
 
+## Design patterns are general, reusable solutions to common problems in software design. They are templates designed to help you write code that is easier to understand, maintain, and extend. Some common design patterns include.
+ - **Singleton:-** Ensures a class has only one instance and provides a global point of access to it.
+ - **Factory:-** Creates objects without specifying the exact class of object that will be created.
+ - **Observer:-** Defines a one-to-many dependency between objects so that when one object changes state, all its dependents are notified.
 ## Docker
  - Docker is a platform and a tool that allows you to build, distribute, and run applications inside containers. It's designed to make it easier to create, deploy, and run applications by using containers. Containers allow a developer to package up an application with all parts it needs, such as libraries and other dependencies, and ship it all out as one package.
    ### Docker Container:-
