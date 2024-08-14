@@ -4,7 +4,7 @@
 **DI :-** Dependency Injection (DI) is a technique to achieve Inversion of Control (IoC) between classes and their dependencies. DI makes your application more modular, testable, and maintainable.
 
 **Types of Services in ASP.NET Core**
-##### Transient Services
+##### Transient Services 
 - **Description:** Created each time they are requested.
 - **Use Case:** Suitable for lightweight and stateless services.
 
