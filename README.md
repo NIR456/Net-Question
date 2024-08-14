@@ -140,8 +140,8 @@ CORS allows servers to specify which domains are permitted to access resources o
                   ```
 
 ## Design patterns
-- Design patterns are general, reusable solutions to common problems in software design. They are templates designed to help you write code that is easier to understand, 
-  maintain, and extend. Some common design patterns include.
+### Design patterns are general, reusable solutions to common problems in software design. They are templates designed to help you write code that is easier to understand, 
+###  maintain, and extend. Some common design patterns include.
  - **Singleton:-** Ensures a class has only one instance and provides a global point of access to it.
  - **Factory:-** Creates objects without specifying the exact class of object that will be created.
  - **Observer:-** Defines a one-to-many dependency between objects so that when one object changes state, all its dependents are notified.
