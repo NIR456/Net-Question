@@ -596,6 +596,9 @@ Choosing the right type of API depends on the specific needs of your application
  - Authorization determines what actions and resources an authenticated user can access. It involves assigning roles and permissions to users. Common approaches include.
  - Attribute-Based Access Control (ABAC): Access is granted based on attributes (e.g., user department, time of access).
  - Access Control Lists (ACLs): Lists that specify which users or system processes are granted access to objects
+## Web API and Web API 2.0 Difference
+  - Web API: Relied heavily on conventional routing, often leading to less readable and maintainable routes.
+  - Web API 2.0: Introduced attribute routing, allowing you to define routes directly on controller actions, making URLs more expressive and easier to manage.
 ## Diff between Abstract class and interface
 ## Inheritance
 ## Polymorphism
