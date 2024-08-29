@@ -600,6 +600,30 @@ Choosing the right type of API depends on the specific needs of your application
 ## Web API and Web API 2.0 Difference
   - Web API: Relied heavily on conventional routing, often leading to less readable and maintainable routes.
   - Web API 2.0: Introduced attribute routing, allowing you to define routes directly on controller actions, making URLs more expressive and easier to manage.
+# Implementing SignalR in ASP.NET Core
+
+1. **Install SignalR Package:**  
+   Add the `Microsoft.AspNetCore.SignalR` package to your project.
+2. **Configure SignalR:**  
+   In `Startup.cs`, add SignalR services and map a hub route.
+3. **Create a Hub:**  
+   Define a hub class that handles real-time communication methods.
+4. **Set Up Client:**  
+   Use JavaScript to connect to the hub and handle messages.
+5. **Test Communication:**  
+   Send messages from the server and ensure they appear on clients.
+---
+# Implementing JWT in ASP.NET Core
+1. **Install JWT Package:**  
+   Add `Microsoft.AspNetCore.Authentication.JwtBearer` to your project.
+2. **Configure JWT:**  
+   In `Startup.cs`, set up JWT authentication with your secret key.
+3. **Create Token Service:**  
+   Write a service to generate JWTs with user claims and expiration.
+4. **Add Authentication Endpoint:**  
+   Implement an endpoint to validate users and return JWTs.
+5. **Secure Endpoints:**  
+   Use the `[Authorize]` attribute to protect routes requiring authentication.        
 ## Diff between Abstract class and interface
 ## Inheritance
 ## Polymorphism
@@ -616,6 +640,7 @@ Choosing the right type of API depends on the specific needs of your application
 ## Deployment and Hosting
 ## Entity Framwork Core and ADO .Net and Dapper ***
 ## how to design database schema in ms sql server
+
 
      
   
