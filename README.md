@@ -623,7 +623,9 @@ Choosing the right type of API depends on the specific needs of your application
 4. **Add Authentication Endpoint:**  
    Implement an endpoint to validate users and return JWTs.
 5. **Secure Endpoints:**  
-   Use the `[Authorize]` attribute to protect routes requiring authentication.        
+   Use the `[Authorize]` attribute to protect routes requiring authentication.
+## Handle All three Relation In Entity Table
+ - To create relationships in Entity Framework Core, you primarily define navigation properties between entities. For one-to-one, a navigation property is added on both sides. For one-to-many, a collection navigation property is added on the "one" side. For many-to-many, a junction table is used with navigation properties on both sides. EF Core can often infer relationships based on naming conventions, but you can also use Fluent API for more customization.
 ## Diff between Abstract class and interface
 ## Inheritance
 ## Polymorphism
