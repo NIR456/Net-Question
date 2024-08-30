@@ -636,7 +636,6 @@ Choosing the right type of API depends on the specific needs of your application
 ## Fundamental Concepts
 ## Middleware and Routing
 ## Entity Framework Core
-## Authentication and Authorization
 ## Performance and Optimization
 ## Configuration and Environment
 ## Deployment and Hosting
