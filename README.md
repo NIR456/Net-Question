@@ -535,6 +535,7 @@ CORS allows servers to specify which domains are permitted to access resources o
  - In ASP.NET Core, LINQ is commonly used to query databases, especially with Entity Framework Core, a popular object- 
     relational mapping (ORM) framework. EF Core allows developers to interact with databases using C# objects, and LINQ 
     provides a natural and efficient way to query and transform this data.
+   ### Method
    
 ## Types of APIs
   **There are several types of APIs, each serving different purposes and operating in various ways. Here are some of the most common types:**
