@@ -642,6 +642,7 @@ Choosing the right type of API depends on the specific needs of your application
 ## Deployment and Hosting
 ## Entity Framwork Core and ADO .Net and Dapper ***
 ## how to design database schema in ms sql server
+## Types of Web Services(asp .Net Core)
 
 
      
