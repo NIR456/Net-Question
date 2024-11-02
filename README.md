@@ -38,6 +38,22 @@ CORS (Cross-Origin Resource Sharing) is a security feature implemented by web br
 
 CORS allows servers to specify which domains are permitted to access resources on the server. This is essential for web security, as it helps prevent unauthorized access to resources.
 
+## Static Class Characteristics
+  ### Key Characteristics of Static Classes:
+Cannot Be Instantiated: You cannot create an instance of a static class. All members must be accessed directly through the class name.
+
+- Only Static Members: A static class can only contain static members. This includes static fields, properties, and methods. Non-static members are not allowed.
+
+- Cannot Be Inherited: Static classes cannot be inherited. This means you cannot create a subclass from a static class, enforcing the idea that a static class is a - - standalone utility.
+
+- Lifetime: Static classes are initialized when the application first accesses them and persist for the lifetime of the application domain.
+
+Shared State: Since static classes can hold static fields, they can be used to maintain shared state across the application.
+
+- Memory Management: Static classes are stored in the heap, but unlike regular classes, they do not have an instance in memory.
+- Utility Classes: Static classes are often used to group utility methods that do not require any instance state, such as mathematical functions or string manipulations.
+ 
+
 ## Agile Methodology
 
 - Agile is an iterative software development methodology that helps developers create and deliver applications more quickly and efficiently. It is based on the principles of collaboration, customer feedback, and the “three C's” – card, conversation, and confirmation.
